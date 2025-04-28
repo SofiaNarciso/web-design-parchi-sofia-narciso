@@ -1,11 +1,11 @@
-/* Reset di base */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Impostazioni generali */
+
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #ffffff;
@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 }
 
-/* HEADER */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -43,7 +43,7 @@ header nav a:hover {
   color: #0077cc;
 }
 
-/* FOOTER */
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -69,7 +69,6 @@ footer .footer-right a:hover {
   color: #0077cc;
 }
 
-/* CONTENUTO GENERALE */
 main {
   padding: 40px;
 }
@@ -80,7 +79,7 @@ h1 {
   font-size: 28px;
 }
 
-/* Immagini */
+
 main img {
   display: block;
   margin: 20px auto;
@@ -88,7 +87,7 @@ main img {
   border-radius: 10px;
 }
 
-/* Paragrafi */
+
 main p {
   max-width: 800px;
   margin: 20px auto;
