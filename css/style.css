@@ -1,0 +1,165 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+ 
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+
+  .header {
+    padding: 15px 0;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-left: 30px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+  }
+  
+
+  .hero {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .intro {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  
+  .intro h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .intro p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+
+  .parks-grid {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .park-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .park-card h3 {
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: bold;
+  }
+  
+
+  .activities {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+  }
+  
+  .activities h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .activities p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+
+  .cta {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .cta img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .footer {
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    padding: 20px 0;
+  }
+  
+  .footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer li {
+    margin: 0 10px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .parks-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav li {
+      margin: 10px 0;
+    }
+  }
+  

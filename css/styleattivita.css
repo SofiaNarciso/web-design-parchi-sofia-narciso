@@ -1,0 +1,98 @@
+/* Reset di base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Impostazioni generali */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #0077cc;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f5f5f5;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer .footer-left {
+  font-weight: bold;
+}
+
+footer .footer-right a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333333;
+  transition: color 0.3s;
+}
+
+footer .footer-right a:hover {
+  color: #0077cc;
+}
+
+/* CONTENUTO GENERALE */
+main {
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Immagini */
+main img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Paragrafi */
+main p {
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 18px;
+  text-align: justify;
+}
+
